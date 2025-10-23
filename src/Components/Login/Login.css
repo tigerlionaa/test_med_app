@@ -6,6 +6,26 @@
     margin-top: 10%; /* Top margin of 10% */
 }
 
+/* Styles for the grid layout */
+.login-grid {
+    text-align: center; /* Center align all content */
+}
+
+.login-text {
+    margin-bottom: 15px; /* Space below text elements */
+}
+
+.login-text h2 {
+    color: #0d213f;
+    font-weight: 600;
+}
+
+.login-form {
+    max-width: 500px; /* Set max width for the form */
+    margin: 0 auto; /* Center the form */
+    text-align: left; /* Align form content to the left */
+}
+
 /* Styles for form groups */
 .form-group {
     margin-bottom: 20px; /* Bottom margin for spacing between form groups */
@@ -20,17 +40,18 @@
 
 /* Styles for form controls */
 .form-control {
-    width: 40%; /* Width of form controls */
-    padding: 8px; /* Padding inside form controls */
+    width: 100%; /* Width of form controls */
+    padding: 10px; /* Padding inside form controls */
     font-size: 16px; /* Font size of form controls */
     border: 1px solid #ccc; /* Border around form controls */
     border-radius: 4px; /* Border radius for rounded corners */
+    box-sizing: border-box;
 }
 
 /* Styles for button groups */
 .btn-group {
-    margin-top: .0001px; /* Top margin for spacing above button groups */
-    margin-bottom: 20px; /* Bottom margin for spacing below button groups */
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /* Styles for buttons */
@@ -40,6 +61,7 @@
     border: none; /* No border for buttons */
     border-radius: 4px; /* Border radius for rounded corners on buttons */
     cursor: pointer; /* Cursor style on hover for buttons */
+    margin-right: 10px;
 }
 
 /* Styles for primary buttons */
@@ -48,8 +70,23 @@
     color: #fff; /* Text color for primary buttons */
 }
 
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
 /* Styles for danger (red) buttons */
 .btn-danger {
     background-color: #dc3545; /* Background color for danger buttons */
     color: #fff; /* Text color for danger buttons */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Styling for error messages */
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
 }
